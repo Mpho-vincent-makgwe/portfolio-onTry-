@@ -56,3 +56,5 @@ const Portfolio = {
 
 // Initialize the portfolio website
 Portfolio.init();
+
+console.log();
