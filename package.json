@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-ontry-",
+  "version": "1.0.0",
+  "description": "My first Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mpho-vincent-makgwe/portfolio-onTry-.git"
+  },
+  "keywords": [
+    "PtloOt"
+  ],
+  "author": "Mpho Vincent Makgwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mpho-vincent-makgwe/portfolio-onTry-/issues"
+  },
+  "homepage": "https://github.com/Mpho-vincent-makgwe/portfolio-onTry-#readme",
+  "dependencies": {
+    "docdash": "^2.0.1",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "2.8.8"
+  }
+}

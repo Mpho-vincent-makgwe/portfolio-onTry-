@@ -1,0 +1,65 @@
+
+/* CSS styles */
+
+
+/* Create the animated gradient */
+@keyframes gradientAnimation {
+0% { background-position: 0% 50%; }
+50% { background-position: 100% 50%; }
+100% { background-position: 0% 50%; }
+}
+/* Create the animated gradient for dark mode*/
+@keyframes darkGradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+/* Apply the animated gradient to the body */
+body {
+background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradientAnimation 15s ease infinite;
+}
+
+
+/* Additional styles for interactivity */
+#portfolio li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1e094b;
+    color: #fff;
+    background: linear-gradient(45deg, #12226a, #240101, #3c0121, #037395);
+  background-size: 400% 400%;
+  animation: darkGradientAnimation 15s ease infinite;
+}
+
+body.dark-mode header,
+body.dark-mode nav,
+body.dark-mode footer {
+    background-color: #333;
+}
+
+body.dark-mode nav a,
+body.dark-mode footer p {
+    color: #fff;
+}
+
+/* Image styles */
+#image-upload {
+    display: none;
+}
+
+#uploaded-images {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.uploaded-image {
+    margin: 10px;
+    max-width: 200px;
+}
