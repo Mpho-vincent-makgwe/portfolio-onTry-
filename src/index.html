@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mpho Vincent Makgwe Portfolio</title>
     <link rel="stylesheet" href="./index.css">
-
 </head>
-    
 <body>
     <header>
         <script src="./index.js" type="module" defer></script>
@@ -16,20 +14,27 @@
         <button id="settings-toggle">Settings</button>
         <button id="theme-toggle">Toggle Dark Mode</button>
         </header>
-        
-        <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <nav  class="navbar">
+            <ul class="navbar">
+                <li class="navbar"><a href="#Education" class="navbar">Education</a></li>
+                <li class="navbar"><a href="#Experince" class="navbar">Experience</a></li>
+                <li class="navbar"><a href="#SkillsAndInterests" class="navbar">Skills And Interests</a></li>
+                <li class="navbar"><a href="#Contacts" class="navbar">Contacts</a></li>
+            </ul>
         </nav>
-        
         <section id="about">
+            <div class="head">
+                <picture>
+                    <img src=""
+                </picture>
+                <h3>Mpho Vincent Makgwe</h3>
+                <h1 class="">Software Engineering Student</h1>
+                <p>proud to be a programmer and I always get the job done.</p>
+    <p>Student at <a href="https://learn.codespace.co.za" class="link" target="_blank">CodeSpace</a></p>
+            </div>
         <h2>About Me</h2>
         <p>I am a passionate web developer with a focus on front-end development. I have experience in HTML, CSS, and JavaScript.</p>
         </section>
-        
         <section id="portfolio">
         <h2>Portfolio</h2>
         <input type="file" id="image-upload" accept="image/*" multiple>
@@ -46,13 +51,14 @@
             </li>
         </ul>
         </section>
-        
         <a id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:mphomakgwe4@gmail.com">mphomakgwe4@gmail.com</a></p>
-        <p>Phone: 0603597941</p>
+        <h2 id="Contacts">Contacts</h2>
+        <p>Email: <a href="mailto:mphomakgwe4@gmail.com"target="_blank">mphomakgwe4@gmail.com</a></p>
+        <!-- my contacts -->
+        <p><a class="cont" href="https://api.whatsapp.com/send?phone=27603597941&text=Hello" target="_blank">Send WhatsApp Message</a>
+        </p>
+        <p><a class="cont" href="tel:0603597941" target="_blank">Phone: 0603597941</a>
         </section>
-        
         <footer>
         <p>&copy; 2023 My Portfolio. All rights reserved.</p>
         </footer>

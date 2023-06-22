@@ -6,18 +6,18 @@
 @keyframes gradientAnimation {
 0% { background-position: 0% 50%; }
 50% { background-position: 100% 50%; }
-100% { background-position: 0% 50%; }
+100% { background-position: 50% 0%; }
 }
 /* Create the animated gradient for dark mode*/
 @keyframes darkGradientAnimation {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    100% { background-position: 50% 0%; }
   }
 /* Apply the animated gradient to the body */
 body {
 background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-background-size: 400% 400%;
+background-size:100% 400% 50% 400%;
 animation: gradientAnimation 15s ease infinite;
 }
 
@@ -40,12 +40,12 @@ body.dark-mode {
 body.dark-mode header,
 body.dark-mode nav,
 body.dark-mode footer {
-    background-color: #333;
+    background-color: #011061;
 }
 
 body.dark-mode nav a,
 body.dark-mode footer p {
-    color: #fff;
+    color: #3f014f;
 }
 
 /* Image styles */
